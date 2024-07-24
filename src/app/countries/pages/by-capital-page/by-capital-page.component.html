@@ -1,0 +1,17 @@
+<h2>Por Capital</h2>
+<hr>
+<shared-input-box
+  (onValue)="searchByCapital($event)"
+  placeHolder="Buscar por capital"></shared-input-box>
+
+<hr>
+
+<div class="row">
+  <div class="col">
+
+
+    <hr>
+
+    <countries-table [countries]="responseCountry"></countries-table>
+  </div>
+</div>
